@@ -13,7 +13,7 @@ public class SK9SDATest {
 
   @BeforeEach
   public void setUp() {
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\hanss\\Desktop\\sda\\Kody\\SdaSk9Selenium\\src\\main\\resources\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver");
     driver = new ChromeDriver();
   }
 
